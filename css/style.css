@@ -1,0 +1,162 @@
+html{
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(124, 120, 120);
+}
+
+header{
+    text-align: center;
+    background-image: url(../img/banner-beters.jpg);
+    background-size:cover;
+    background-repeat: repeat;
+    background-position:center center;
+    padding: 10px;
+    height: 700px;
+    padding-top: 100px;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.692);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pad{
+    padding: 150px;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+    height: 550px;
+    display: block;
+}
+
+.column-3 {
+    width: 33.3333333333%;
+    float: left;
+    position: relative;
+    display: block;
+    transition: 1s;
+}
+.column-3:hover {
+    transform:scale(1.1);
+    z-index: 2;
+    border-radius: 20px;
+}
+
+.column-4 {
+    width: 100%;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+.yellow {
+    padding: 50px;
+}
+.green {
+    padding: 50px;
+}
+
+.gray {
+    padding: 30px;
+    background-color: aliceblue; 
+    border: 5px ridge;
+    border-radius: 10px;
+}
+h1, h2{
+    color: white;
+}
+
+.h1{
+  color: black;  
+}
+h5{
+    color: black;
+}
+img{
+    border-radius: 10px;
+    width: 100%;
+}
+.letra{
+    position: absolute;
+    right: 15%;
+    bottom: 4.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.timg{
+    width: 55%;
+    height: 100%;
+    margin: 0 auto;
+}
+footer{
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    height: 100px;
+    padding-top: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.com{
+    text-decoration: none;
+    color: #84665e;
+    font-size: 18px;
+}
+.a{
+    font-size: 50px;
+    text-align: center;
+}
+.boton-compra {
+    background-color: rgb(158,172,158);
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+  }
+  
+  .boton-compra:hover {
+    background-color: #84665e;
+  }
+  .mid{
+    text-align: center;  
+}
+@media screen and (max-width: 800px) {
+
+        header{
+            padding-top: 200px;
+        }
+        .column-3{
+            width: 50%;
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
+        .column-2{
+            width: 100%;
+            flex-wrap: wrap;
+            height: fit-content;
+        }
+    }
+    
