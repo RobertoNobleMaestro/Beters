@@ -99,7 +99,7 @@ img{
 .letra{
     position: absolute;
     right: 15%;
-    bottom: 4.25rem;
+    bottom: 3.75rem;
     left: 15%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
@@ -194,6 +194,6 @@ section{
             width: 150px;
             opacity: 1;
             filter: contrast(120%);
-          }
+        }
+
     }
-    
